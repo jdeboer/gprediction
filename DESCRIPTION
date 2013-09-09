@@ -1,0 +1,10 @@
+Package: gprediction
+Type: Package
+Title: Google Prediction API client for R
+Version: 0.1
+Date: 2013-09-09
+Author: Johann de Boer <johann.deboer@gmail.com>
+Maintainer: Johann de Boer <johann.deboer@gmail.com>
+Description: Google Prediction API client for R
+Depends: R (>= 3.0.0), httr, RJSONIO
+License: MIT
