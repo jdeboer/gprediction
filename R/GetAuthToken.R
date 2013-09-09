@@ -1,5 +1,7 @@
 #' GetAuthToken
+#' 
 #' Get an OAuth2.0 authentication token for accessing the Google Prediction API
+#' 
 #' @param appname name of the Google APIs project for authentication
 #' @param file optional path and filename where to save the OAuth2.0 token for
 #'   reuse

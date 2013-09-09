@@ -6,5 +6,20 @@ Date: 2013-09-09
 Author: Johann de Boer <johann.deboer@gmail.com>
 Maintainer: Johann de Boer <johann.deboer@gmail.com>
 Description: A Google Prediction API client for R
-Depends: R (>= 3.0.0), httr, RJSONIO
+Depends:
+    R (>= 3.0.0),
+    httr,
+    RJSONIO
 License: MIT
+Collate:
+    'GetAuthToken.R'
+    'globaldata.R'
+    'GpApiRequest.R'
+    'GpAnalyze.R'
+    'GpDelete.R'
+    'GpGet.R'
+    'GpInsert.R'
+    'GpList.R'
+    'GpPredict.R'
+    'gprediction-package.R'
+    'GpUpdate.R'

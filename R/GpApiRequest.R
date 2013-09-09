@@ -20,6 +20,7 @@
 #'   perform, where not implied by req_type.
 #' @param model_type optional Character string. The type of model to use, only
 #'   applies to request to perform a prediction. Possible values include
+#' @export
 GpApiRequest <- function(req_type, oauth, project, body_list = NULL, model_id = NULL, method = NULL, model_type = "trainedmodels") {
   stopifnot(
     req_type %in% c("GET", "POST", "PUT", "DELETE")
