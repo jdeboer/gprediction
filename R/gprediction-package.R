@@ -10,8 +10,8 @@
 #' @keywords package
 #' @import httr
 #' @docType package
-#' @name ganalytics
-#' @aliases ganalytics ganalytics-package
+#' @name gprediction
+#' @aliases gprediction gprediction-package
 NULL
 
 #' @include globaldata.R

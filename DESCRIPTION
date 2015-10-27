@@ -10,7 +10,7 @@ Depends:
     R (>= 3.0.0),
     httr,
     RJSONIO
-License: MIT
+License: file LICENSE
 Collate:
     'GetAuthToken.R'
     'globaldata.R'

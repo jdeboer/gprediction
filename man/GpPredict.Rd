@@ -6,9 +6,6 @@
     hosted = FALSE)
 }
 \arguments{
-  \item{output}{The generic output value - could be
-  regression or class label.}
-
   \item{csv_instance}{Input to the model for a prediction.
   A list of input features, these can be strings or
   doubles.}
@@ -20,6 +17,9 @@
 
   \item{oauth}{The httr OAuth2.0 token reference class
   object to use for authentication.}
+
+  \item{hosted}{optional boolean TRUE = hosted model, FALSE
+  = trained model.}
 }
 \value{
   JSON response from the Google Prediction API converted

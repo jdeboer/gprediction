@@ -11,12 +11,12 @@ NULL
 #' @references Hostedmodels: predict
 #'   \url{https://developers.google.com/prediction/docs/reference/v1.6/hostedmodels/predict}
 #'   
-#' @param output The generic output value - could be regression or class label.
 #' @param csv_instance Input to the model for a prediction. A list of input features, these can be strings or doubles.
 #' @param model_id The unique name for the predictive model (trained or hosted)
 #' @param project The project associated with the model.
 #' @param oauth The httr OAuth2.0 token reference class object to use for 
 #'   authentication.
+#' @param hosted optional boolean TRUE = hosted model, FALSE = trained model.
 #' @return JSON response from the Google Prediction API converted into an R 
 #'   List.
 #' @export
